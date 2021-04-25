@@ -8,7 +8,7 @@ export const CompaniesCount = () => {
     start: 0,
     end: 10,
     delay: 200,
-    duration: 2,
+    duration: 4,
   });
 
   useEffect(() => {

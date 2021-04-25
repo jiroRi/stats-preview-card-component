@@ -8,7 +8,7 @@ export const TemplatesCount = () => {
     start: 0,
     end: 314,
     delay: 2000,
-    duration: 1,
+    duration: 2.5,
   });
 
   useEffect(() => {

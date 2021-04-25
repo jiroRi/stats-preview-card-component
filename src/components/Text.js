@@ -21,7 +21,7 @@ const Title = styled.h1`
   margin-bottom: 14px;
   opacity: 0;
 
-  animation: SlideLeft 400ms ease-in-out forwards;
+  animation: SlideLeft 1200ms ease-in-out forwards;
 
   strong {
     color: ${(props) => props.theme.colors.violet};
@@ -61,7 +61,7 @@ const Body = styled.p`
   margin-bottom: 40px;
   opacity: 0;
 
-  animation: SlideLeft 400ms 100ms ease-in-out forwards;
+  animation: SlideLeft 1200ms 100ms ease-in-out forwards;
 
   @media ${(props) => props.theme.device.tablet} {
     font-size: ${(props) => props.theme.desktopFontSize.body};
@@ -81,7 +81,7 @@ const Label = styled.h2`
   margin-bottom: 14px;
   opacity: 0;
 
-  animation: SlideLeft 400ms 200ms ease-in-out forwards;
+  animation: SlideLeft 1200ms 200ms ease-in-out forwards;
 
   @media ${(props) => props.theme.device.tablet} {
     font-size: ${(props) => props.theme.desktopFontSize.label};
@@ -98,7 +98,7 @@ const Description = styled.h5`
   letter-spacing: 1px;
   opacity: 0;
 
-  animation: SlideLeft 400ms 200ms ease-in-out forwards;
+  animation: SlideLeft 1200ms 200ms ease-in-out forwards;
 
   @media ${(props) => props.theme.device.tablet} {
     font-size: ${(props) => props.theme.desktopFontSize.description};

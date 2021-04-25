@@ -8,7 +8,7 @@ export const QueriesCount = () => {
     start: 0,
     end: 12,
     delay: 200,
-    duration: 2,
+    duration: 4,
   });
 
   useEffect(() => {
