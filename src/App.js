@@ -1,6 +1,18 @@
-import GlobalStyle from "./GlobalStyle";
+import React from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { theme, Text, Main, Stat, Image, Attribution } from "./components";
+
+import GlobalStyle from "./GlobalStyle";
+import {
+  theme,
+  Text,
+  Main,
+  Stat,
+  Image,
+  CompaniesCount,
+  TemplatesCount,
+  QueriesCount,
+  Attribution
+} from "./components";
 
 const App = () => {
   return (
@@ -18,15 +30,15 @@ const App = () => {
             </Text>
             <Stats>
               <Stat>
-                <Text variant="label">10k+</Text>
+                <CompaniesCount />
                 <Text variant="description">COMPANIES</Text>
               </Stat>
               <Stat>
-                <Text variant="label">314</Text>
+                <TemplatesCount />
                 <Text variant="description">TEMPLATES</Text>
               </Stat>
               <Stat>
-                <Text variant="label">12M+</Text>
+                <QueriesCount />
                 <Text variant="description">QUERIES</Text>
               </Stat>
             </Stats>
