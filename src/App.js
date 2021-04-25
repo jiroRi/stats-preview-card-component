@@ -11,7 +11,7 @@ import {
   CompaniesCount,
   TemplatesCount,
   QueriesCount,
-  Attribution
+  Attribution,
 } from "./components";
 
 const App = () => {
@@ -78,6 +78,7 @@ const Content = styled.div`
   @media ${(props) => props.theme.device.laptop} {
     flex-flow: row;
     max-width: 1110px;
+    justify-content: space-between;
   }
 `;
 
