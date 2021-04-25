@@ -6,3 +6,4 @@ export { Image } from "./Image";
 export { CompaniesCount } from "./CompaniesCount";
 export { TemplatesCount } from "./TemplatesCount";
 export { QueriesCount } from "./QueriesCount";
+export { Attribution } from "./Attribution";

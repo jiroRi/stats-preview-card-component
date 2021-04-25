@@ -25,6 +25,7 @@ export const theme = {
     body: `1.5rem`,
     label: `2.4rem`,
     description: `1.2rem`,
+    attribution: `1.2rem`,
   },
 
   desktopFontSize: {

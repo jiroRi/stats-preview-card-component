@@ -11,6 +11,7 @@ import {
   CompaniesCount,
   TemplatesCount,
   QueriesCount,
+  Attribution
 } from "./components";
 
 const App = () => {
@@ -45,6 +46,7 @@ const App = () => {
           <Image />
         </Content>
       </Page>
+      <Attribution />
     </ThemeProvider>
   );
 };
