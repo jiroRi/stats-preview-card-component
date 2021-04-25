@@ -1,6 +1,6 @@
 import GlobalStyle from "./GlobalStyle";
 import styled, { ThemeProvider } from "styled-components";
-import { theme, Text, Main, Stat, Image } from "./components";
+import { theme, Text, Main, Stat, Image, Attribution } from "./components";
 
 const App = () => {
   return (
@@ -34,6 +34,7 @@ const App = () => {
           <Image />
         </Content>
       </Page>
+      <Attribution />
     </ThemeProvider>
   );
 };
